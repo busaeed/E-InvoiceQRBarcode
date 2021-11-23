@@ -1,4 +1,4 @@
-# E-InvoiceBarCode
+# E-InvoiceQRBarCode
  A small, easy to use java library to generate QR barcode hash as per the requirements of the ZATCA in Saudi Arabia.
  
  Example:
