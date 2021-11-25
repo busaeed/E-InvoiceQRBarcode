@@ -11,5 +11,12 @@
     new InvoiceTaxAmount("0.30")
 );
  ```
+ 
+ Note: to integrate the library in android
+       use the "ZakatQrCodeAndroidLib-android.aar", and the logic is as the previous example nothing changes.
+
+
 
 For contact: linkedin.com/in/busaeed
+For Android integration contact: https://www.linkedin.com/in/abdelouadoud-rasmi-5aa500132/
+
