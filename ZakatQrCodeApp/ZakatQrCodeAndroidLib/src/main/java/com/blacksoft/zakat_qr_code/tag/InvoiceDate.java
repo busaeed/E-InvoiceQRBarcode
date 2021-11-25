@@ -1,6 +1,5 @@
-package com.github.busaeed.einvoice.qrbarcode.tag;
+package com.blacksoft.zakat_qr_code.tag;
 
-import com.github.busaeed.einvoice.qrbarcode.Tag;
 
 public class InvoiceDate extends Tag {
 

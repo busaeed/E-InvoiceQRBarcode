@@ -2,12 +2,6 @@ package com.blacksoft.zakat_qr_code;
 
 import android.util.Base64;
 
-import com.github.busaeed.einvoice.qrbarcode.tag.InvoiceDate;
-import com.github.busaeed.einvoice.qrbarcode.tag.InvoiceTaxAmount;
-import com.github.busaeed.einvoice.qrbarcode.tag.InvoiceTotalAmount;
-import com.github.busaeed.einvoice.qrbarcode.tag.Seller;
-import com.github.busaeed.einvoice.qrbarcode.tag.TaxNumber;
-
 public class QRBarcodeEncoder {
 
     private QRBarcodeEncoder() {
