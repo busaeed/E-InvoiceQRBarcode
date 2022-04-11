@@ -1,6 +1,7 @@
 package com.github.busaeed.einvoice.qrbarcode;
 
 import java.util.Base64;
+import java.nio.charset.StandardCharsets;
 
 import com.github.busaeed.einvoice.qrbarcode.tag.InvoiceDate;
 import com.github.busaeed.einvoice.qrbarcode.tag.InvoiceTaxAmount;
@@ -37,7 +38,7 @@ public class QRBarcodeEncoder {
 	}
 	
 	private static String toBase64(String tlvString) {
-		return Base64.getEncoder().encodeToString(tlvString.getBytes());
+		return Base64.getEncoder().encodeToString(tlvString.getBytes(StandardCharsets.UTF_8));
 	}
 
 }
