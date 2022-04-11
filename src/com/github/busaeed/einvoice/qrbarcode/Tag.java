@@ -1,5 +1,7 @@
 package com.github.busaeed.einvoice.qrbarcode;
 
+import java.nio.charset.StandardCharsets;
+
 public class Tag {
 	
 	private int tag;
@@ -22,7 +24,7 @@ public class Tag {
 	}
 	
 	private int getLength() {
-		return this.value.getBytes().length;
+		return this.value.getBytes(StandardCharsets.UTF_8).length;
 	}
 	
 	private String toHex(int value) {
